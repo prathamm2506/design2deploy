@@ -19,8 +19,8 @@ const Header = () => {
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Design2Deploy</span>
-              <Logo className="h-8 w-auto" />
+              {/* <span className="sr-only">Design2Deploy</span> */}
+              <img src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg" alt="" className='w-8 h-8' />
             </a>
           </div>
           <div className="flex lg:hidden">
