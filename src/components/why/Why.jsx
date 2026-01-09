@@ -26,7 +26,7 @@ export default function Why() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pt-4 lg:pr-8">
             <div className="lg:max-w-lg">
-              <h2 className="text-base/7 font-semibold text-indigo-400">Build trust. Grow faster.</h2>
+              <h2 className="text-base/7 font-semibold text-indigo-400">Why get a Website?</h2>
               <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">
                 Your Digital Foundation
               </p>

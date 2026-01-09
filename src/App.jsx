@@ -5,9 +5,9 @@ import Features from './components/features/Features'
 import Bento from './components/bento/Bento'
 import Pricing from './components/pricing/Pricing'
 import CTA from './components/cta/CTA'
-import BlogGrid from './components/blog grid/BlogGrid'
-import Contact from './components/contact/Contact'
+import Portfolio from './components/portfolio/Portfolio'
 import Footer from './components/footer/Footer'
+import Contact from './components/contact/Contact'
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
       <Why/>
       <Features/>
       <Bento/>
-      <BlogGrid/>
+      <Portfolio/>
       <Pricing/>
       {/* <CTA/> */}
       <Contact/>
