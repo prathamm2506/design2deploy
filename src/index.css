@@ -4,3 +4,7 @@
   box-sizing: border-box;
   font-family: "Ubuntu Sans", sans-serif;
 }
+
+html{
+  scroll-behavior: smooth;
+}

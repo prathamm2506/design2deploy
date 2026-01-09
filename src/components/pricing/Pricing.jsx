@@ -4,8 +4,8 @@ const tiers = [
   {
     name: 'Launch',
     id: 'tier-launch',
-    href: '#',
-    priceMonthly: '$29',
+    href: '#contact',
+    priceMonthly: '₹999',
     description: "Perfect for new brands and small businesses getting online for the first time.",
     features: ['Custom website design', 'Basic SEO setup', 'Fast deployment', 'Contact form integration'],
     featured: false,
@@ -13,8 +13,8 @@ const tiers = [
   {
     name: 'Scale',
     id: 'tier-scale',
-    href: '#',
-    priceMonthly: '$99',
+    href: '#contact',
+    priceMonthly: '₹1999',
     description: 'Built for growing businesses that need performance, flexibility, and ongoing support.',
     features: [
       'Custom website design', 'Basic SEO setup', 'Fast deployment', 'Contact form integration',
@@ -32,7 +32,7 @@ function classNames(...classes) {
 
 export default function Pricing() {
   return (
-    <div className="relative isolate bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
+    <div className="relative isolate bg-gray-900 px-6 py-24 sm:py-32 lg:px-8" id='pricing'>
       <div aria-hidden="true" className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl">
         <div
           style={{
@@ -80,7 +80,7 @@ export default function Pricing() {
               >
                 {tier.priceMonthly}
               </span>
-              <span className={classNames(tier.featured ? 'text-gray-400' : 'text-gray-400', 'text-base')}>/month</span>
+              <span className={classNames(tier.featured ? 'text-gray-400' : 'text-gray-400', 'text-base')}>/year</span>
             </p>
             <p className={classNames(tier.featured ? 'text-gray-300' : 'text-gray-300', 'mt-6 text-base/7')}>
               {tier.description}

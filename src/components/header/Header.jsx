@@ -4,10 +4,11 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from '../logo/Logo'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Why', href: '#why' },
+  { name: 'Services', href: '#services' },
+  { name: 'Features', href: '#features' },
+  { name: 'Pricing', href: '#pricing' },
+  { name: 'Contact', href: '#contact' },
 ]
 
 const Header = () => {
@@ -40,8 +41,8 @@ const Header = () => {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm/6 font-semibold text-white">
-              Log in <span aria-hidden="true">&rarr;</span>
+            <a href="https://www.instagram.com/_design2deploy_/" className="text-sm/6 font-semibold text-white">
+              Instagram <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </nav>
@@ -77,10 +78,10 @@ const Header = () => {
                 </div>
                 <div className="py-6">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/_design2deploy_/"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-white/5"
                   >
-                    Log in
+                    Instagram
                   </a>
                 </div>
               </div>
@@ -106,7 +107,7 @@ const Header = () => {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
               From idea to live website{' '}
-              <a href="#" className="font-semibold text-indigo-400">
+              <a href="#services" className="font-semibold text-indigo-400">
                 <span aria-hidden="true" className="absolute inset-0" />
                 end to end <span aria-hidden="true">&rarr;</span>
               </a>
@@ -122,12 +123,12 @@ No handoffs. No confusion. Just a fast, reliable launch.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="#contact"
                 className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
                 Start your project
               </a>
-              <a href="#" className="text-sm/6 font-semibold text-white">
+              <a href="#why" className="text-sm/6 font-semibold text-white">
                 View our process <span aria-hidden="true">→</span>
               </a>
             </div>
