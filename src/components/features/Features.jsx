@@ -1,17 +1,17 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { PencilSquareIcon, RocketLaunchIcon, ArrowPathIcon, DocumentTextIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
     name: 'Design',
     description:
       'We create clean, modern designs that communicate clearly and convert visitors into customers.',
-    icon: CloudArrowUpIcon,
+    icon: PencilSquareIcon,
   },
   {
     name: 'Deployment',
     description:
       'We build and deploy your website with best practices, fast loading, responsive, secure, and production-ready.',
-    icon: LockClosedIcon,
+    icon: RocketLaunchIcon,
   },
   {
     name: 'Updates & Management',
@@ -23,7 +23,7 @@ const features = [
     name: 'Content & Graphics',
     description:
       'Clear copy, visuals, and graphics that match your brand.',
-    icon: FingerPrintIcon,
+    icon: DocumentTextIcon,
   },
 ]
 

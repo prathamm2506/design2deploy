@@ -20,7 +20,7 @@ const App = () => {
       <Pricing/>
       {/* <CTA/> */}
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

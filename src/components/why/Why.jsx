@@ -1,21 +1,21 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { ShieldCheckIcon, ChartBarIcon, GlobeAltIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
     name: 'Builds instant credibility',
     description:
       'A professional website tells them you’re legit, trustworthy, and serious.',
-    icon: CloudArrowUpIcon,
+    icon: ShieldCheckIcon,
   },
   {
     name: 'Converts visitors into leads',
     description: 'A website captures leads, explains your offer clearly, and drives action.',
-    icon: LockClosedIcon,
+    icon: ChartBarIcon,
   },
   {
     name: 'Works 24/7 for your business',
     description: 'Your website answers questions, shows your services, and sells your value even when you’re offline.',
-    icon: ServerIcon,
+    icon: GlobeAltIcon,
   },
 ]
 

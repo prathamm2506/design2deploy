@@ -1,17 +1,24 @@
-# BlogGrid.jsx Layout Update - TODO
+# Logo and Icon Updates - TODO
 
 ## Task
-Create a grid layout with:
-- Row 1: 3 cards
-- Row 2: 2 cards (2nd card spans/prelines)
+1. Use the SVG from the footer to replace the logo all over the website
+2. Change all the icons as per the text accordingly
 
 ## Steps Completed:
-- [x] Read and analyze current BlogGrid.jsx structure
-- [x] Update grid container to have proper row/column structure
-- [x] Add 2 more cards (total 5 cards)
-- [x] Apply col-span-2 to the 5th card for preline effect
+- [x] Create reusable Logo component with the SVG from footer
+- [x] Replace header logo (both desktop and mobile) with Logo component
+- [x] Update Features.jsx icons:
+  - Design → PencilSquareIcon
+  - Deployment → RocketLaunchIcon
+  - Updates & Management → ArrowPathIcon (kept as is)
+  - Content & Graphics → DocumentTextIcon
+- [x] Update Why.jsx icons:
+  - Builds instant credibility → ShieldCheckIcon
+  - Converts visitors into leads → ChartBarIcon
+  - Works 24/7 for your business → GlobeAltIcon
+- [x] Update Footer.jsx to use Logo component
+- [x] Keep CheckIcon in Pricing.jsx (appropriate for feature list)
 
-## Layout Structure:
-- **Row 1**: 3 cards (Studio by Preline, Onsite, Digital Solutions)
-- **Row 2**: 2 cards (Cloud Computing, Preline Press with lg:col-span-2)
+## Remaining:
+- [ ] Test the application to verify changes work correctly
 
