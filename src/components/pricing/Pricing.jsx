@@ -5,23 +5,34 @@ const tiers = [
     name: 'Launch',
     id: 'tier-launch',
     href: '#contact',
-    priceMonthly: '₹999',
-    description: "Perfect for new brands and small businesses getting online for the first time.",
-    features: ['Custom website design', 'Basic SEO setup', 'Fast deployment', 'Contact form integration'],
+    priceMonthly: '₹999 / year',
+    description: 'Ideal for individuals, startups, and small businesses looking to establish a strong online presence.',
+  features: [
+    'Custom portfolio website design',
+    'Hosting included',
+    'Content management support',
+    'Regular content & section updates',
+    'Contact form integration',
+    'Maintenance & basic support',
+  ],
     featured: false,
   },
   {
     name: 'Scale',
     id: 'tier-scale',
     href: '#contact',
-    priceMonthly: '₹1999',
-    description: 'Built for growing businesses that need performance, flexibility, and ongoing support.',
-    features: [
-      'Custom website design', 'Basic SEO setup', 'Fast deployment', 'Contact form integration',
-      'Advanced performance optimization',
-      'Enhanced security setup',
-      'Priority support',
-    ],
+    priceMonthly: 'Custom',
+    description: 'Tailored solutions for large-scale projects, growing brands, and businesses.',
+  features: [
+    'Everything in Launch plan',
+    'Domain included',
+    'Fully custom UI/UX design',
+    'Advanced SEO & analytics setup',
+    'High-performance optimization',
+    'Enhanced security configuration',
+    'Scalable architecture for large projects',
+    'Custom feature development',
+  ],
     featured: true,
   },
 ]
@@ -80,7 +91,7 @@ export default function Pricing() {
               >
                 {tier.priceMonthly}
               </span>
-              <span className={classNames(tier.featured ? 'text-gray-400' : 'text-gray-400', 'text-base')}>/year</span>
+              {/* <span className={classNames(tier.featured ? 'text-gray-400' : 'text-gray-400', 'text-base')}>/year</span> */}
             </p>
             <p className={classNames(tier.featured ? 'text-gray-300' : 'text-gray-300', 'mt-6 text-base/7')}>
               {tier.description}

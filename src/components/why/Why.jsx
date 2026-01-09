@@ -2,19 +2,19 @@ import { ShieldCheckIcon, ChartBarIcon, GlobeAltIcon } from '@heroicons/react/20
 
 const features = [
   {
-    name: 'Builds instant credibility',
+    name: 'Showcase your work professionally',
     description:
-      'A professional website tells them you’re legit, trustworthy, and serious.',
-    icon: ShieldCheckIcon,
+      'A stunning portfolio website displays your projects beautifully and builds instant credibility.',
+    icon: UserIcon,
   },
   {
-    name: 'Converts visitors into leads',
-    description: 'A website captures leads, explains your offer clearly, and drives action.',
-    icon: ChartBarIcon,
+    name: 'Attract potential clients',
+    description: 'Highlight your best work to attract opportunities and showcase your expertise.',
+    icon: EyeIcon,
   },
   {
-    name: 'Works 24/7 for your business',
-    description: 'Your website answers questions, shows your services, and sells your value even when you’re offline.',
+    name: 'Build your personal brand',
+    description: 'Your portfolio tells your story, establishes your unique style, and grows your online presence.',
     icon: GlobeAltIcon,
   },
 ]
@@ -26,12 +26,12 @@ export default function Why() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pt-4 lg:pr-8">
             <div className="lg:max-w-lg">
-              <h2 className="text-base/7 font-semibold text-indigo-400">Why get a Website?</h2>
+              <h2 className="text-base/7 font-semibold text-indigo-400">Why get a Portfolio Website?</h2>
               <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">
-                Your Digital Foundation
+                Your Creative Showcase
               </p>
               <p className="mt-6 text-lg/8 text-gray-300">
-                For startups and small businesses, your website is often the first interaction people have with your brand.
+                For creatives and professionals, your portfolio website is your digital gallery and business card.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-400 lg:max-w-none">
                 {features.map((feature) => (

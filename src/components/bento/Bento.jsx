@@ -5,7 +5,7 @@ export default function Bento() {
       <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
         <h2 className="text-center text-base/7 font-semibold text-indigo-400">What you get</h2>
         <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
-          Websites built for real-world use
+          Portfolios built to impress
         </p>
         <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
           <div className="relative lg:row-span-2">
@@ -14,7 +14,7 @@ export default function Bento() {
               <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                 <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">Mobile friendly</p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
-                  Your website works perfectly on all devices, phones, tablets, and desktops, ensuring a smooth experience for every visitor.
+                  Your portfolio looks stunning on all devices, phones, tablets, and desktops, ensuring your work shines everywhere.
                 </p>
               </div>
               <div className="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
@@ -54,7 +54,7 @@ export default function Bento() {
               <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                 <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">Security</p>
                 <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
-                  Secure setup with best practices to protect your website and user data, giving both you and your customers peace of mind.
+                  Secure setup with best practices to protect your portfolio and visitor data, keeping your work safe and professional.
                 </p>
               </div>
               <div className="@container flex flex-1 items-center max-lg:py-6 lg:pb-2">
