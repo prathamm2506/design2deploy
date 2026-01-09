@@ -1,4 +1,4 @@
-import { UserIcon, PhotoIcon, ArrowPathIcon, DocumentTextIcon } from '@heroicons/react/24/outline'
+import { RocketLaunchIcon, PencilSquareIcon, ArrowPathIcon, DocumentTextIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {

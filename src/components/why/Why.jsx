@@ -1,21 +1,21 @@
-import { ShieldCheckIcon, ChartBarIcon, GlobeAltIcon } from '@heroicons/react/20/solid'
+import { ShieldCheckIcon, ChartBarIcon, GlobeAltIcon, UserIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
     name: 'Showcase your work professionally',
     description:
       'A stunning portfolio website displays your projects beautifully and builds instant credibility.',
-    icon: UserIcon,
+    icon: GlobeAltIcon,
   },
   {
     name: 'Attract potential clients',
     description: 'Highlight your best work to attract opportunities and showcase your expertise.',
-    icon: EyeIcon,
+    icon: ChartBarIcon,
   },
   {
     name: 'Build your personal brand',
     description: 'Your portfolio tells your story, establishes your unique style, and grows your online presence.',
-    icon: GlobeAltIcon,
+    icon: ShieldCheckIcon,
   },
 ]
 
