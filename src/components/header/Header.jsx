@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from '../logo/Logo'
 
 const navigation = [
-  { name: 'Why', href: '#why' },
+  // { name: 'Why', href: '#why' },
   { name: 'Services', href: '#services' },
   { name: 'Features', href: '#features' },
   { name: 'Pricing', href: '#pricing' },
@@ -20,7 +20,7 @@ const Header = () => {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               {/* <span className="sr-only">Design2Deploy</span> */}
-              <img src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg" alt="" className='w-8 h-8' />
+              <img src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg" alt="" className='w-10 h-10' />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -35,13 +35,13 @@ const Header = () => {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-white">
+              <a key={item.name} href={item.href} className="text-lg font-semibold text-white">
                 {item.name}
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="https://www.instagram.com/_design2deploy_/" className="text-sm/6 font-semibold text-white">
+            <a href="https://www.instagram.com/_design2deploy_/" className="text-lg font-semibold text-white">
               Instagram <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -103,34 +103,33 @@ const Header = () => {
             className="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75"
           />
         </div>
-        <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-3xl py-24 sm:py-32 lg:py-44">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-              From concept to stunning portfolio{' '}
+Turn visitors into customers with{' '}
               <a href="#services" className="font-semibold text-indigo-400">
                 <span aria-hidden="true" className="absolute inset-0" />
-                end to end <span aria-hidden="true">&rarr;</span>
+                redesigns<span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
-              Showcase your work with stunning portfolio websites
+Redesign your website. Get more leads.
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-              Professional portfolio websites for individuals and businesses.
-No handoffs. No confusion. Just beautiful, functional portfolios that impress.
+We rebuild sites for cafes, restaurants, real estate, and local businesses. Faster. Mobile-ready. Built to sell.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#contact"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-lg uppercase font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
-                Start your project
+Get Your Free Audit
               </a>
-              <a href="#why" className="text-sm/6 font-semibold text-white">
+              {/* <a href="#why" className="text-sm/6 font-semibold text-white">
                 View our process <span aria-hidden="true">→</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

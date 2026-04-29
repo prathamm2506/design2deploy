@@ -2,37 +2,36 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 
 const tiers = [
   {
-    name: 'Launch',
-    id: 'tier-launch',
+    name: 'Free Audit',
+    id: 'tier-audit',
     href: '#contact',
-    priceMonthly: '₹999 / year',
-    description: 'Ideal for individuals, startups, and small businesses looking to establish a strong online presence.',
-  features: [
-    'Custom portfolio website design',
-    'Hosting included',
-    'Content management support',
-    'Regular content & section updates',
-    'Contact form integration',
-    'Maintenance & basic support',
-  ],
+    priceMonthly: '₹0',
+    description: 'Get a professional review of your website with actionable insights.',
+    features: [
+      'Website audit (UI/UX + performance)',
+    'Speed & mobile responsiveness check',
+    'Conversion improvement suggestions',
+    'Competitor comparison insights',
+    '15–30 min consultation call'
+    ],
     featured: false,
   },
   {
-    name: 'Scale',
-    id: 'tier-scale',
+    name: 'Custom Build',
+    id: 'tier-custom',
     href: '#contact',
-    priceMonthly: 'Custom',
-    description: 'Tailored solutions for large-scale projects, growing brands, and businesses.',
-  features: [
-    'Everything in Launch plan',
-    'Domain included',
-    'Fully custom UI/UX design',
-    'Advanced SEO & analytics setup',
-    'High-performance optimization',
-    'Enhanced security configuration',
-    'Scalable architecture for large projects',
-    'Custom feature development',
-  ],
+    priceMonthly: 'Custom Pricing',
+    description: 'Complete website redesign tailored to your business goals.',
+    features: [
+      'Custom UI/UX design',
+    'Full development (modern tech stack)',
+    'Domain & hosting setup',
+    'Content structuring & optimization',
+    'SEO-ready architecture',
+    'Performance optimization',
+    'Ongoing support & maintenance',
+    'Scalable for future growth'
+    ],
     featured: true,
   },
 ]
@@ -54,13 +53,13 @@ export default function Pricing() {
         />
       </div>
       <div className="mx-auto max-w-4xl text-center">
-        <h2 className="text-base/7 font-semibold text-indigo-400">Pricing</h2>
+        <h2 className="text-base/7 font-semibold text-indigo-400">Simple Pricing</h2>
         <p className="mt-2 text-5xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
-          Choose the right plan for you
+          Redesign packages that deliver results
         </p>
       </div>
       <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-        Whether you’re just starting out or ready to scale, we offer flexible website solutions with no hidden costs and full transparency.
+        No surprises. Pay for outcomes: more traffic, leads, sales.
       </p>
       <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
         {tiers.map((tier, tierIdx) => (
@@ -91,7 +90,6 @@ export default function Pricing() {
               >
                 {tier.priceMonthly}
               </span>
-              {/* <span className={classNames(tier.featured ? 'text-gray-400' : 'text-gray-400', 'text-base')}>/year</span> */}
             </p>
             <p className={classNames(tier.featured ? 'text-gray-300' : 'text-gray-300', 'mt-6 text-base/7')}>
               {tier.description}
@@ -119,11 +117,11 @@ export default function Pricing() {
               className={classNames(
                 tier.featured
                   ? 'bg-indigo-500 text-white hover:bg-indigo-400 focus-visible:outline-indigo-500'
-                  : 'bg-white/10 text-white inset-ring inset-ring-white/5 hover:bg-white/20 focus-visible:outline-white/75',
+                  : 'bg-white/10 text-white ring-1 ring-white/5 hover:bg-white/20 focus-visible:outline-white/75',
                 'mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10',
               )}
             >
-              Get started today
+              Start Redesign Now
             </a>
           </div>
         ))}

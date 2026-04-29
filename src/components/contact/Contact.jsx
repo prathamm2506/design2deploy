@@ -42,21 +42,20 @@ export default function Contact() {
       >
         {/* Heading */}
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base/7 font-semibold text-indigo-400">Contact</h2>
+          <h2 className="text-base/7 font-semibold text-indigo-400">Ready to Grow?</h2>
           <p className="mt-2 text-5xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
-            Let's talk about your project
+            Book a Free Website Audit
           </p>
         </div>
 
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-400 sm:text-xl/8 mb-16">
-          Feel free to reach out if you'd like to brainstorm ideas, discuss a
-          project, or work on something impactful together.
+          Tell us about your site. We'll spot quick wins for more customers.
         </p>
 
         {/* Inputs */}
         <div className="flex flex-col md:flex-row items-center gap-8 w-[350px] md:w-[700px]">
           <div className="w-full">
-            <label className="text-gray-300">Your Name</label>
+            <label className="text-gray-300">Full Name</label>
             <input
               type="text"
               name="name"
@@ -66,7 +65,7 @@ export default function Contact() {
           </div>
 
           <div className="w-full">
-            <label className="text-gray-300">Your Email</label>
+            <label className="text-gray-300">Business Email</label>
             <input
               type="email"
               name="email"
@@ -78,7 +77,7 @@ export default function Contact() {
 
         {/* Message */}
         <div className="mt-6 w-[350px] md:w-[700px]">
-          <label className="text-gray-300">Message</label>
+          <label className="text-gray-300">Tell us your goals</label>
           <textarea
             name="message"
             required
@@ -92,7 +91,7 @@ export default function Contact() {
           disabled={loading}
           className="mt-5 bg-indigo-500 text-white h-12 w-56 px-4 rounded active:scale-95 transition hover:bg-indigo-400 disabled:opacity-60"
         >
-          {loading ? "Sending..." : "Send Message"}
+          {loading ? "Sending..." : "Send Audit Request"}
         </button>
 
         {/* Status */}
